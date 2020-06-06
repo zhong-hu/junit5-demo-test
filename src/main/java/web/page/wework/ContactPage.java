@@ -1,17 +1,13 @@
-package page.wework;
+package web.page.wework;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import page.common.BasePage;
+import web.page.common.BasePage;
 
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.net.URLDecoder;
-import java.time.Duration;
 
 /**
  * @author： zhong hu

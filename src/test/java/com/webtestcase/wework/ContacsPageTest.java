@@ -1,8 +1,8 @@
-package com.wework;
+package com.webtestcase.wework;
 
 import org.junit.jupiter.api.*;
-import page.wework.ContactPage;
-import page.wework.MainPage;
+import web.page.wework.ContactPage;
+import web.page.wework.MainPage;
 import org.openqa.selenium.By;
 import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
 import static org.junit.jupiter.api.Assertions.assertEquals;

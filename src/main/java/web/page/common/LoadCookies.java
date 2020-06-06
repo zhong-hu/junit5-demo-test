@@ -1,4 +1,4 @@
-package page.common;
+package web.page.common;
 
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;

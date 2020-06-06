@@ -9,7 +9,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.File;
-import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -169,7 +168,7 @@ public class SeleniumDemoTest {
             JavascriptExecutor js=(JavascriptExecutor)driver;
             js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
             Thread.sleep(3000);
-            driver.findElement(By.xpath("//*[@id='page']/a[last()]"));
+            driver.findElement(By.xpath("//*[@id='web.page']/a[last()]"));
             Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();

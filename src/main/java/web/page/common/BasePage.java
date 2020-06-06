@@ -1,4 +1,4 @@
-package page.common;
+package web.page.common;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -42,6 +42,7 @@ public class BasePage {
 
     public void click(By by){
         //todo:异常处理
+        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
         //等到元素可点击
         wait.until(ExpectedConditions.elementToBeClickable(by));
         this.findElement(by).click();

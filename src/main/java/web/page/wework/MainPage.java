@@ -1,11 +1,8 @@
-package page.wework;
+package web.page.wework;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import page.common.BasePage;
-import page.common.LoadCookies;
-import java.util.concurrent.TimeUnit;
+import web.page.common.BasePage;
+import web.page.common.LoadCookies;
 
 /**
  * @author： zhong hu
