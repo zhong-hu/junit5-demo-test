@@ -36,7 +36,7 @@ public class SeleniumDemoTest {
         //隐式等待
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         //显示等待
-        wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait=new WebDriverWait(driver, 10);
         //页面加载超时时间设置为 5s
         driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
         //异步脚本的超时时间设置成 3s
